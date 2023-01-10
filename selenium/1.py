@@ -1,0 +1,14 @@
+from selenium import webdriver
+
+driver_path = r"D:\Python\selenium\chromedriver.exe"
+driver = webdriver.Chrome(executable_path=driver_path)
+
+url = "https://www.google.com/search?q=today+yes+bank+share+price&sxsrf=ALiCzsa5p_ZqnQZelYwZ_GtUG0g9k96Aog%3A1672761160376&ei=SE-0Y97HFtW5seMPqpODqA8&oq=today+yes+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMhAIABCABBCHAhCxAxCDARAUMgsIABCxAxCDARCRAjIFCAAQkQIyBQgAEIAEMgUIABCRAjIFCAAQkQIyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMhcIABCABBCHAhCxAxCDARAUEEYQ-gEYAToKCAAQRxDWBBCwAzoHCAAQsAMQQzoECCMQJzoLCAAQgAQQsQMQgwE6DQgAEIAEEIcCELEDEBQ6BAgAEEM6CggAELEDEIMBEEM6CggAEIAEEIcCEBQ6CAgAELEDEIMBOg4IABCABBCxAxCDARDJAzoICAAQgAQQsQM6EggAELEDEIMBEJECEEYQ-gEYAToFCC4QgARKBAhBGABKBAhGGAFQsSNYlT5g2EZoAXABeACAAZ8CiAHdE5IBBjAuMTQuMpgBAKABAcgBCsABAdoBBggBEAEYEw&sclient=gws-wiz-serp"
+driver.get(url)
+
+
+
+
+
+
+

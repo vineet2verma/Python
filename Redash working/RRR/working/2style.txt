@@ -1,0 +1,40 @@
+<style>
+
+.styled-table
+
+{
+  
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 40%;
+}
+
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    height:1px;
+}
+
+.styled-table th
+{
+background-color: #113D8A;
+color: #ffffff;
+text-align: center;
+}
+
+.styled-table td 
+{
+    padding: 0px;
+    text-align: center;
+}
+
+table,td,th {
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+
+
+</style>

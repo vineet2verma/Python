@@ -126,6 +126,31 @@ def youtube(myclick):
         pl_list_title = py.title
         link = py.video_urls
         info_dic={}
+        
+        # This is Url Notepad Syntax.
+        F_PATH = destbox.get()
+
+        if myclick == "single":
+                choose1 = 1
+        elif myclick = "playlist":
+                choose1 = 2
+
+        def fun_txt(link):
+                if choose1 == 2:
+                        txt_file = F_PATH+pl_list_title+".txt"
+                # elif choose1 == 1:
+                        # yt = YouTube(link)._title
+                        # print(yt)
+                        # txt_file = F_PATH + str(yt) +".txt"
+                        with open(txt_file,"a+") as file:
+                                for i,x in enumerate(link):
+                                        print(f"{i+1} {YouTube(x).title}")
+                                        file.write(f"{i+1}\t{YouTube(x).title} | {x}"+"\n")
+                        wb.open(txt_file)
+        fun_txt(link)
+        
+        
+        
         for index,link2 in enumerate(link):
                 if myclick == 'single':    print(f'\n{index+1} Out of {len(link)} :- ')
                 else:   print(f'\n{index+1} Out of {len(link)} :-  {py.title}')  

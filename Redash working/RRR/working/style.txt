@@ -1,7 +1,0 @@
-<style type="text/css">
-  .styled-table {font-size:9px;color:#333333;width:50%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
-  .styled-table th {font-size:9px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:center;}
-  .styled-table tr {background-color:#d4e3e5;}
-  .styled-table td {font-size:9px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:center;}
-  .styled-table tr:hover {background-color:#ffffff;}
-</style>

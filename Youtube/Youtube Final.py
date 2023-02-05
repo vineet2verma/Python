@@ -36,7 +36,7 @@ F_PATH = 'D://Python video//'
 # This is Url Notepad Syntax.
 def fun_txt(link):
     if choose1 == 2:
-        txt_file = F_PATH+pl_list_title+".txt"
+        txt_file = F_PATH+pl_list_title.replace("|","")+".txt"
     # elif choose1 == 1:
         # yt = YouTube(link)._title
         # print(yt)
@@ -78,7 +78,7 @@ for index,link2 in enumerate(link):
     print('\n\t\t Downlaoding In Progress....\tPlease Wait\n')
     yt = YouTube(link_)
     print(yt.title)
-    if len(link)>1: FILE_PATH = F_PATH + py.title +"//"
+    if len(link)>1: FILE_PATH = F_PATH + py.title.replace("|","") +"//"
     else:
         FILE_PATH = F_PATH + "//"
      

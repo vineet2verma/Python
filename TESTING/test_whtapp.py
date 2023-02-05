@@ -20,7 +20,7 @@ options.add_argument("--profile-directory=Default")
 options.headless = False
 options.add_argument("--window-size=1920,1080")
 options.add_argument('--ignore-certificate-errors')
-options.add_argument('--allow-running-insecure-content')
+# options.add_argument('--allow-running-insecure-content')
 options.add_argument("--disable-extensions")
 options.add_argument("--proxy-server='direct://'")
 options.add_argument("--proxy-bypass-list=*")
